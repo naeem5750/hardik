@@ -1,0 +1,504 @@
+<!doctype html>
+<html class="no-js" lang="en">
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>DATA-TAC</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/capture.ico">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+		<!-- Bootstarp css  -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- Flaticon Css  -->
+		<link rel="stylesheet" href="assets/font/flaticon.css">
+		<!-- Font awesome Css  -->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!-- Slider css  -->
+		<link rel="stylesheet" href="assets/css/camera.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<!-- FancyBox Css  -->
+		<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+		<!-- swiper css -->
+		<link rel="stylesheet" href="assets/css/swiper.min.css" />
+		<!-- nst Filtering css -->
+		<link rel="stylesheet" href="assets/css/jquery.nstSlider.css" />
+		<!-- Flex Slider css -->
+		<link rel="stylesheet" href="assets/css/flexslider.css" />
+		<!-- Main Css file -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<!-- Header Section -->
+		<!-- Preloader -->
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+				<div class="object" id="object_one"></div>
+				<div class="object" id="object_two"></div>
+				<div class="object" id="object_three"></div>
+				<div class="object" id="object_four"></div>
+				<div class="object" id="object_five"></div>
+				<div class="object" id="object_six"></div>
+				<div class="object" id="object_seven"></div>
+				<div class="object" id="object_eight"></div>
+				<div class="object" id="object_big"></div>
+				</div>
+			</div>
+		</div>	
+		<header>
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="logo">
+							<a href="index.html"><img src="images/logoweb_.png" alt=""></a>
+						</div>
+						<div class="header-top-right">
+							<ul>
+								<li>
+									<img src="images/email1.png" alt="" />
+									<div class="header-top-contact"> 
+										<h4>info@data-tac.com</h4>
+										<!--<h5>Wednesday-Closed</h5>-->
+									</div>
+								</li>
+								<li>
+									<img src="images/header-top-telephone.png" alt="" />
+									<div class="header-top-contact">
+										<h4>+91 91677-55577</h4>
+										<!--<h5>      </h5>-->
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="mainmenu-area" id="sohag">
+				<div class="container">
+					<div class="row">
+						<a href="index.html"><img src="images/logoweb.png" id='log_img' style=" padding-top: 0px;" ></a>
+						<div class="nav-menu">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar-one bar-stick"></span>
+								<span class="icon-bar-two bar-stick"></span>
+								<span class="icon-bar-three bar-stick"></span>
+							  </button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							  <ul class="nav navbar-nav">
+								<li class="dropdown">
+								  <a href="index.html" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+								  
+								</li>				
+												
+								<li class="dropdown">
+								  <a href="aboutus.html" class="dropdown-toggle"><span>ABOUT DATA-TAC</span></a>
+								 
+								<li class="dropdown">
+								  <a href="services.html" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="true"><i class="fa fa-bolt" aria-hidden="true"></i><span>Services</span></a>
+								  <ul class="dropdown-menu">
+									<li><a href="data_entry_services.html">DATA ENTRY SERVICES</a></li>
+									<li><a href="conversion_services.html">CONVERSION SERVICES</a></li>
+<!--									<li><a href="service_page_three.html">Services Page Three</a></li>
+									<li><a href="service_single_page.html">Services Single Page</a></li>-->
+								  </ul>
+								</li>				
+								</li>
+								<li class="dropdown">
+								  <a href="security_policy.html" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="true"><span>Security & Policy</span></a>
+<!--								  <ul class="dropdown-menu">
+									<li><a href="pricing_plan_page.html">Pricing Plan</a></li>
+									<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>About</span></a>
+									  <ul class="dropdown-menu">
+										<li><a href="about_page_one.html">About Page One</a></li>
+										<li><a href="about_page_two.html">About Page Two</a></li>
+										<li><a href="about_page_three.html">About Page Three</a></li>
+									  </ul>									
+									</li>
+									<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Project Page</span></a>
+									  <ul class="dropdown-menu">
+										<li><a href="project_page_one.html">Project Page One</a></li>
+										<li><a href="project_page_two.html">Project Page Two</a></li>
+										<li><a href="project_single_page.html">Project Single Page</a></li>
+									  </ul>										
+									</li>
+									<li><a href="404.html">404 Page</a></li>								
+								  </ul>-->
+								</li>								
+								<li class="dropdown">
+								  <a href="quality.html" class="dropdown-toggle"><i class="fa fa-bolt" aria-hidden="true"></i><span>Quality</span></a>
+<!--								  <ul class="dropdown-menu">
+									<li><a href="service_page_one.html">Services Page One</a></li>
+									<li><a href="service_page_two.html">Services Page Two</a></li>
+									<li><a href="service_page_three.html">Services Page Three</a></li>
+									<li><a href="service_single_page.html">Services Single Page</a></li>
+								  </ul>-->
+								</li>				
+<!--								<li class="dropdown">
+								  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bolt" aria-hidden="true"></i><span>Services</span></a>
+								  <ul class="dropdown-menu">
+									<li><a href="service_page_one.html">Services Page One</a></li>
+									<li><a href="service_page_two.html">Services Page Two</a></li>
+									<li><a href="service_page_three.html">Services Page Three</a></li>
+									<li><a href="service_single_page.html">Services Single Page</a></li>
+								  </ul>
+								</li>				
+								<li class="dropdown">
+								  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bolt" aria-hidden="true"></i><span>Services</span></a>
+								  <ul class="dropdown-menu">
+									<li><a href="service_page_one.html">Services Page One</a></li>
+									<li><a href="service_page_two.html">Services Page Two</a></li>
+									<li><a href="service_page_three.html">Services Page Three</a></li>
+									<li><a href="service_single_page.html">Services Single Page</a></li>
+								  </ul>
+								</li>				
+								<li class="dropdown">
+								  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-users" aria-hidden="true"></i><span>Team</span></a>
+								  <ul class="dropdown-menu">
+									<li><a href="team_member_page_one.html">Team Page One</a></li>
+									<li><a href="team_member_page_two.html">Team Page Two</a></li>
+									<li><a href="team_member_page_three.html">Team Page Three</a></li>
+									<li><a href="team_member_single_page.html">Team Single Page</a></li>
+								  </ul>
+								</li>				
+								<li class="dropdown">
+								  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-pencil" aria-hidden="true"></i><span>Blog</span></a>
+								  <ul class="dropdown-menu">
+									<li><a href="blog_page_one.html">Blog Page One</a></li>
+									<li><a href="blog_page_two.html">Blog Page Two</a></li>
+									<li><a href="blog_single_page.html">Blog Single Page</a></li>
+								  </ul>
+								</li>				
+								<li class="dropdown">
+								  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Shop</span></a>
+								  <ul class="dropdown-menu">
+									<li><a href="shop_page_one.html">Shop Page</a></li>
+									<li><a href="shop_single_page.html">Product Details</a></li>
+									<li><a href="shop_cart_page.html">Cart Page</a></li>
+								  </ul>
+								</li>-->
+								<li class="active"><a href="contact_page.php"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Contact Us</span></a></li>
+							  </ul>
+							</div><!-- /.navbar-collapse -->
+						</nav>
+						</div>
+						<div class="mainmenu-right">
+<!--							<div class="search-box">
+								<i class="fa fa-search first_click" aria-hidden="true"></i>
+								<i class="fa fa-times second_click" aria-hidden="true"></i>
+							</div>-->
+<!--							<div class="chart-icon">
+								<i class="fa fa-shopping-cart" aria-hidden="true">
+									<span class="chart-number">2</span>
+								</i>
+								<ul class="cart-list">
+									<li>
+										<a href="shop_single_page.html"><img src="images/menu_cart_01.jpg" alt="" /></a>
+										<div class="cart-selected-product">
+											<h3><a href="shop_single_page.html">Product Title</a></h3>
+											<span class="cart-select-quantity">Quantity : 1</span>
+											<span>$85</span>
+										</div>
+										<div class="cart-list-delate">
+											<i class="fa fa-times"></i>
+										</div>
+									</li>
+									<li>
+										<a href="shop_single_page.html"><img src="images/menu_cart_02.jpg" alt="" /></a>
+										<div class="cart-selected-product">
+											<h3><a href="shop_single_page.html">Product Title</a></h3>
+											<span class="cart-select-quantity">Quantity : 1</span>
+											<span>$85</span>
+										</div>
+										<div class="cart-list-delate">
+											<i class="fa fa-times"></i>
+										</div>
+									</li>
+									<li>
+										<a href="shop_single_page.html"><img src="images/menu_cart_03.jpg" alt="" /></a>
+										<div class="cart-selected-product">
+											<h3><a href="shop_single_page.html">Product Title</a></h3>
+											<span class="cart-select-quantity">Quantity : 1</span>
+											<span>$85</span>
+										</div>
+										<div class="cart-list-delate">
+											<i class="fa fa-times"></i>
+										</div>
+									</li>
+									<li class="cart-select-total">
+										<h3>Subtotal :</h3>
+										<span>$40.00</span>
+										<a href="shop_cart_page.html">Checkout</a>
+									</li>
+								</ul>
+							</div>							-->
+						</div>
+						<div class="search-box-text">
+							<form action="http://themes.codexcoder.com/theboss/search">
+								<input type="text" name="search" id="all-search" placeholder="Search Here"/>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End Header Section -->
+		<!-- Breadcrumb Section -->
+		<section class="breadcrumb-section section">
+			<div class="container">
+				<div class="breadcrumb-area">
+					<h2 class="breadcrumb-title">Contact Us</h2>
+					<ul class="breadcrumb-ul">
+					  <li><a href="index.html">Home</a></li>
+					  <li class="active-breadcrumb">Contact</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- End Breadcrumb Section -->	
+		<!-- Contact Info Section -->
+		<section class="section contact-page-info">
+			<div class="container">
+				<div class="row">
+					<div class="section-heading">
+						<h2 class="section-title">Contact Us</h2>
+						<!--<p class="section-content">Globally leverage other's clientfocused growth strategies through pandemic and an users. embrace corporate technologies for unique testing</p>-->
+					</div>
+				</div>
+				<div class="row">
+					<div class="contact-information">
+						<div class="col-sm-4 col-xs-12">
+							<div class="single-contact-info">
+								<span class="flaticon-destination"></span>
+								<h3>Offices Address</h3>
+								<p>11, Jugal kishor Building, S.V.Road </p>
+								<p>Opp Shiv Temple, Malad West, Mumbai - 400064, INDIA.</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="single-contact-info">
+								<span class="flaticon-smartphone-call"></span>
+								<h3>Offices Phones</h3>
+								<p>+91 91677-55577</p>
+								<!--<p>+91 9321 798 969</p>-->
+							</div>
+						</div>
+						<div class="col-sm-4 col-xs-12">
+							<div class="single-contact-info">
+								<span class="flaticon-destination"></span>
+								<h3>Offices Email</h3>
+								<p>info@data-tac.com </p>
+								<!--<p>http://www.data-tac.com</p>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--  End Contact Info Section -->	
+		<!--  Sent Feedback Section -->
+		<section class="section give-feedback-section" id="contactus" name="contactus">
+			<div class="container">
+				<div class="row">
+					<div class="section-heading">
+						<h2 class="section-title">Contact Us</h2>
+						<!--<p class="section-content">Globally leverage other's clientfocused growth strategies through pandemic and an users. embrace corporate technologies for unique testing</p>-->
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<h3>Why Our Clients Come Back</h3>
+					<div class="pricing-feature">
+						<ul>
+							<li style="padding: 13.5px 0 13.5px 10px;">
+								<i class="fa fa-check tick-button" aria-hidden="true"></i>
+								<span>Highest Quality Services</span>
+							</li>
+							<li style="padding: 13.5px 0 13.5px 10px;">
+								<i class="fa fa-check tick-button" aria-hidden="true"></i>
+								<span>Stringent Security Policy</span>
+							</li>
+							<li style="padding: 13.5px 0 13.5px 10px;">
+								<i class="fa fa-check tick-button" aria-hidden="true"></i>
+								<span>Quickest Turnaround</span>
+							</li>
+							<li style="padding: 13.5px 0 13.5px 10px;">
+								<i class="fa fa-check tick-button" aria-hidden="true"></i>
+								<span>Most Competitive Price</span>
+							</li>
+							<li style="padding: 13.5px 0 13.5px 10px;">
+								<i class="fa fa-check tick-button" aria-hidden="true"></i>
+								<span>Outstanding Customer Experience</span>
+							</li>
+						</ul>
+						<br>
+						<p>
+						WE OFFER A PRICE MATCH GUARANTEE AND A 100% QUALITY GUARANTEE
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-7">
+					<div class="row">
+						<div class="sent-feedback-box">
+                                                    <?php if((isset($_GET['status']))&&($_GET['status']=="error")) { ?>
+                                                        <p style="color:red;">Failed to send your Enquiry</p>
+                                                    <?php } ?>
+                                                    <?php if((isset($_GET['status']))&&($_GET['status']=="success")) { ?>
+                                                        <p style="color:green;">Enquiry Sent Successfully</p>
+                                                    <?php } ?>
+                                                    <form action="model/sendmail.php" class="comment-form" method="post">
+								<div class="row">
+									<div class="col-sm-6 col-xs-12">
+										<input type="text" name="name" placeholder="Full Name" class="input"/>
+									</div>		
+									<div class="col-sm-6 col-xs-12">
+										<input type="email" name="email" placeholder="Email Address" class="input"/>
+									</div>			
+								</div>
+								<div class="row">
+									<div class="col-sm-6 col-xs-12">
+										<input type="text" name="country" placeholder="Country" class="input"/>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<input type="text" name="contact" placeholder="Contact Number" class="input"/>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6 col-xs-12">
+										<input type="text" name="company_name" placeholder="Company Name" class="input"/>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<input type="text" name="company_website" placeholder="Company Website" class="input"/>
+									</div>
+								</div>
+								<textarea name="message" id="comment-reply" rows="7" placeholder="Type Here Message"></textarea>
+								<div class="submit-button-div">
+									<span class="button"><input type="submit" value="Send Message" class="submit-button"/></span>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<!--  End Sent Feedback Section -->	
+		<!--  Google Map Section -->
+		<section>
+			<div id="map_canvas"></div>
+		</section>
+		<!--  End Google Map Section -->	
+		<!-- Newsletter Section -->
+		<!--<section class="newletter-section">
+			<div class="container">
+				<div class="row">
+					<div class="newsletter-section-box">
+						<h2>Join Our Newsletter</h2>
+						<div class="input-box">
+							<form action="">
+								<input type="email" name="email" placeholder="Enter your e-mail here" />
+								<input type="submit" value="Subscrive Now" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>-->
+		<!-- End Newsletter Section -->
+		<!-- Footer section -->
+		<footer class="footer-section">
+			<div class="footer-top">
+					<div class="container">
+						<div class="row">
+							<div class="row">
+								<div class="col-md-6 col-sm-6">
+									<div class="f-widget">
+										<h2>About The Company</h2>
+										<div class="footer-content">
+											<p>DATA-TAC is a professional back office data processing services Provider Company located in Mumbai, India. Founded in 2015, DATA-TAC is the preeminent supplier of back office administrative services. Including online and offline date entry services, data processing, web and data research and scanning services, bookkeeping, accounting data entry, and comprehensive accounting services. The DATA-TAC team can address your immediate project needs or provide ongoing back office support services for your team.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<div class="contact-info">
+										<ul>
+											<li><i class="fa fa-home" aria-hidden="true"></i><span> 11,Jugal Kishor Building, S.V.Road,  Opp Shiv Temple, Malad West, </span></li>
+											<li><i class="fa fa-home" aria-hidden="true" style="visibility: hidden;"></i><span> Mumbai - 400064, INDIA.  </span></li>
+											<li><i class="fa fa-phone" aria-hidden="true"></i><span> +91 91677-55577</span></li>
+											<!--<li><i class="fa fa-phone" aria-hidden="true"></i><span> +91 9321 798 969</span></li>-->
+											<li><i class="fa fa-envelope-o" aria-hidden="true"></i><span> info@data-tac.com</span></li>
+											<li><i class="fa fa-globe" aria-hidden="true"></i><span> www.data-tac.com</span></li>
+										</ul>
+									</div>
+								</div>								
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="copyright-text">
+							<p>© 2017. Designer By <a href="http://www.varchasvacorp.com" target = "_blank">Varchasva Corporation</a></p>
+						</div>
+						<div class="social-icon">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="scrollToTop"><i class="fa fa-angle-up"></i></div>
+		<!-- End Footer section -->		
+        <script src="../../code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+		<!-- Bootstarp Min js file -->
+        <script src="assets/js/bootstrap.min.js"></script>
+		<!-- Paralux -->		
+		<script src="assets/js/simpleparallax.js"></script>
+		<!-- My Custom slider js -->
+		<script type='text/javascript' src='assets/js/jquery.easing.1.3.js'></script> 
+		<script type='text/javascript' src='assets/js/camera.min.js'></script> 
+		<!-- Counter Up js -->
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/jquery.countup.js"></script>
+		<!-- FancyBox Js -->		
+        <script src="assets/js/jquery.fancybox.js"></script>
+		<!-- swiper -->		
+        <script src="assets/js/swiper.min.js"></script>
+		<!--for skill chat jquary-->
+		<script src="assets/js/jquery.easypiechart.js"></script>
+		<!-- google map js -->		
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script src="assets/js/gmap3.min.js"></script>
+		<!-- Flex Slider js -->
+		<script src="assets/js/jquery.flexslider.js"></script>
+		<!-- Filtering js -->
+		<script src="assets/js/jquery.nstSlider.min.js"></script>
+		<!-- Smoth scroll js -->
+		<script src="assets/js/jQuery.scrollSpeed.js"></script>
+		<!-- All Plugin Active code Here -->
+        <script src="assets/js/plugins.js"></script>		
+		<!-- Main js code here -->		
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
